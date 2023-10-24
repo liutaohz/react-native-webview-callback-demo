@@ -1,6 +1,6 @@
 # react-native-webview-callback-demo
 
-This project demonstrates how to configure and use react native webview callback
+This project demonstrates how to configure and use react-native-webview-callback
 
 
 ## AwesomeProject
