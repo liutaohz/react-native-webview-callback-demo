@@ -1,5 +1,5 @@
 /**
- * Domo for v0.0.2 && v0.0.3
+ * Domo for v0.0.4
  */
 
 import React, {useRef} from 'react';
@@ -14,9 +14,11 @@ import {
 } from 'react-native';
 import {WebView} from 'react-native-webview';
 import myEvent from './customNativeApi';
-import ReactNativeWebviewCallback from 'react-native-webview-callback';
-const {mergeReactNativeApi, useReactNativeAddListener, reactNativeCallH5} =
-  ReactNativeWebviewCallback;
+import {
+  mergeReactNativeApi,
+  useReactNativeAddListener,
+  reactNativeCallH5,
+} from 'react-native-webview-callback';
 const {alert} = Alert;
 
 function App(): JSX.Element {

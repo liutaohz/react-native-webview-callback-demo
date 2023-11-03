@@ -2,10 +2,8 @@
  * Domo for v0.0.2 && v0.0.3
  */
 import { useEffect, useState } from 'react'
-import ReactNativeWebviewCallback from 'react-native-webview-callback';
+import { useH5AddListener, mergeH5Api, h5CallreactNative } from 'react-native-webview-callback';
 import myEvent from './customH5Api';
-import './App.css';
-const { useH5AddListener, mergeH5Api, h5CallreactNative } = ReactNativeWebviewCallback;
 function App() {
   useH5AddListener(mergeH5Api(myEvent)) // just need init once ,Entry file
   useEffect(() => {
