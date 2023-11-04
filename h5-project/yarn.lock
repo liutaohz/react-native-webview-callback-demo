@@ -1364,10 +1364,10 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-native-webview-callback@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/react-native-webview-callback/-/react-native-webview-callback-0.0.4.tgz#bdf5e79aaf893020a36530e5bd3b029dcbc6b4d4"
-  integrity sha512-wAqOBn4jDRHsMJzDaTPCc3eGA8gWD+5irJ3wEjD0JMStDVc2vmXgFChGBNp2TaULw7NMHMGffxfoeVHYaMprLg==
+react-native-webview-callback@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/react-native-webview-callback/-/react-native-webview-callback-0.0.5.tgz#0829cb9d201fe038dec37a2cbb8a463ec5912d0d"
+  integrity sha512-oi0ccFgXID8PaT3q2jGo6RxkGHMZpLhfePwEpiGWoagzyl0riv7HX0P7Bml079v/8zQ8Q+e/oZSWC5ZK8x2A4g==
   dependencies:
     events "^3.3.0"
 
